@@ -1,6 +1,17 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helvetica-condensed-light.eot');
+  src: local('☺'), url('../fonts/helvetica-condensed-light.woff') format('woff'), url('../fonts/helvetica-condensed-light.ttf') format('truetype'), url('../fonts/helvetica-condensed-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   padding: 30px;
   text-align: center;
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+  line-height: 28px;
 }
 
 body * {
@@ -41,13 +52,17 @@ section#description {
 }
 
 section#description, footer {
-  width: 400px;
-  line-height: 30px;
+  width: 420px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media only screen and (min-width: 850px) {
+
+  section#description, footer {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   .black-on-white section#description, .black-on-white footer {
     text-align: right;
@@ -55,7 +70,7 @@ section#description, footer {
 
   .white-on-black section#description, .white-on-black footer {
     text-align: left;
-    margin-left: 430px;
+    margin-left: 450px;
   }
 
   /*http://www.wpdfd.com/editorial/thebox/deadcentre4.html*/
@@ -72,11 +87,11 @@ section#description, footer {
   }
 
   #content {
-    margin-left: -420px;
+    margin-left: -440px;
     position: absolute;
     top: -280px;
     left: 50%;
-    width: 840px;
+    width: 880px;
     height: 560px;
     visibility: visible;
   }

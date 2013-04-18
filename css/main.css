@@ -12,6 +12,11 @@ body {
   line-height: 28px;
 }
 
+body * {
+  background-color: #fff;
+  color: #fff;
+}
+
 div#container {
   padding: 30px;
 }

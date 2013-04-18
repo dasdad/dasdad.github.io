@@ -3,13 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Rodrigo Scotti          - http://www.facebook.com/scotti.rodrigo
+    Rodolfo Felipe          - http://www.facebook.com/rod.felipe
+    Leonardo Baptista       - https://github.com/leonardoobaptistaa
+    Rafael da Silva Almeida - https://github.com/stupied4ever
+    Vitor Navarro           - https://github.com/vnavarro
+    Leandro Facchinetti     - http://leafac.com
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Jekyll, Vim
+    Git, Github

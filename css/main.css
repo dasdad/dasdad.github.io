@@ -13,7 +13,7 @@ body {
 }
 
 div#content {
-  margin: 30px;
+  padding: 30px;
 }
 
 .black-on-white, .black-on-white * {

@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+html, body {
+  margin: 0; padding: 0;
+}
+html{
+  height: 100%;
+}
+
 body {
   font-family: 'Helvetica Neue';
   font-size: 20px;

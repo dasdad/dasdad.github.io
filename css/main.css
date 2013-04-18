@@ -43,6 +43,14 @@ div#container {
   background: url(../images/logo-white.png);
 }
 
+#side-text {
+  margin-top: 50px;
+}
+
+#side-text p {
+  margin: 0;
+}
+
 @media only screen and (min-width: 900px) {
   header .logo {
     margin: 0 auto;
@@ -61,10 +69,6 @@ div#container {
     text-align: right;
     margin-left: auto;
     margin-right: 51.5%;
-  }
-
-  #side-text p {
-    margin: 0;
   }
 
   footer {

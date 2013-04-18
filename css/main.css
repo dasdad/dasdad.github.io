@@ -7,25 +7,18 @@
 }
 
 body {
-  padding: 30px;
-  text-align: center;
   font-family: 'Helvetica Neue';
   font-size: 20px;
   line-height: 28px;
 }
 
-body * {
-  background-color: #fff;
-  color: #fff;
+div#content {
+  margin: 30px;
 }
 
 .black-on-white, .black-on-white * {
   background-color: #fff;
-  color: #777;
-}
-
-.black-on-white header h1 {
-  background: url(../images/logo-black.png);
+  color: #444;
 }
 
 .white-on-black, .white-on-black * {
@@ -33,74 +26,44 @@ body * {
   color: #fff;
 }
 
-.white-on-black header h1 {
-  background: url(../images/logo-white.png);
-}
-
-header h1 {
+.logo {
   border: 0;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
   width: 352px;
   height: 67px;
-  margin: 0 auto;
 }
 
-section#description {
-  margin-top: 30px;
+.black-on-white .logo {
+  background: url(../images/logo-black.png);
 }
 
-section#description, footer {
-  width: 420px;
-  margin-left: auto;
-  margin-right: auto;
+.white-on-black .logo {
+  background: url(../images/logo-white.png);
 }
 
-@media only screen and (min-width: 850px) {
-
-  section#description, footer {
-    margin-left: 0;
-    margin-right: 0;
+@media only screen and (min-width: 900px) {
+  header .logo {
+    margin: 0 auto;
   }
 
-  .black-on-white section#description, .black-on-white footer {
-    text-align: right;
-  }
-
-  .white-on-black section#description, .white-on-black footer {
-    text-align: left;
-    margin-left: 450px;
-  }
-
-  /*http://www.wpdfd.com/editorial/thebox/deadcentre4.html*/
-
-  #horizon {
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    width: 100%;
-    height: 1px;
-    overflow: visible;
-    visibility: visible;
-    display: block;
-  }
-
-  #content {
-    margin-left: -440px;
-    position: absolute;
-    top: -280px;
-    left: 50%;
-    width: 880px;
-    height: 560px;
-    visibility: visible;
-  }
-
-  section#description {
+  #side-text {
+    width: 420px;
     margin-top: 150px;
   }
 
-  section#description p, footer p {
+  .white-on-black #side-text {
+    margin-left: 50.5%
+  }
+
+  .black-on-white #side-text {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 51.5%;
+  }
+
+  #side-text p {
     margin: 0;
   }
 

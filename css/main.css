@@ -36,16 +36,18 @@ div#container {
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
-  width: 352px;
-  height: 67px;
+  background-repeat: no-repeat;
+  width: 211px;
+  height: 40px;
+  background-size: 211px 40px;
 }
 
 .black-on-white .logo {
-  background: url(../images/logo-black.png);
+  background-image: url(../images/logo-black.png);
 }
 
 .white-on-black .logo {
-  background: url(../images/logo-white.png);
+  background-image: url(../images/logo-white.png);
 }
 
 #side-text {
@@ -54,6 +56,14 @@ div#container {
 
 #side-text p {
   margin: 0;
+}
+
+@media only screen and (min-width: 450px) {
+  .logo {
+    width: 352px;
+    height: 67px;
+    background-size: 352px 67px;
+  }
 }
 
 @media only screen and (min-width: 900px) {

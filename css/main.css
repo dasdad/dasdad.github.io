@@ -66,13 +66,13 @@ div#container {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 920px) {
   header .logo {
     margin: 0 auto;
   }
 
   #side-text {
-    width: 430px;
+    width: 460px;
     margin-top: 150px;
   }
 

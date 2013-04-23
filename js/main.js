@@ -10,7 +10,7 @@ $(function(){
     var act = function() {
       var newTop = ($container.height() - $element.height()) / 2;
 
-      if (newTop < 0 || $container.width() < 900) {
+      if (newTop < 0 || $container.width() < 920) {
         newTop = 0;
       }
 

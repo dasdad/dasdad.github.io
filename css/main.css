@@ -58,6 +58,10 @@ div#container {
   margin: 0;
 }
 
+#side-text ul{
+  list-style-position: inside;
+}
+
 @media only screen and (min-width: 450px) {
   .logo {
     width: 352px;

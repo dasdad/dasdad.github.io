@@ -58,8 +58,9 @@ div#container {
   margin: 0;
 }
 
-#side-text ul{
+#side-text ul, #side-text ol {
   list-style-position: inside;
+  padding: 0;
 }
 
 @media only screen and (min-width: 450px) {

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article>
+  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  <p class="post-signature">
+    {{ if page.author }}
+      {{ page.author }} ·
+    {{ endif }}
+    {{ page.date | date: "%B %d, %Y" }}
+  </p>
+  {{ content }}
+</article>
+
+<p class="back-to-blog">
+  <a href="/blog">← Back to Das Dad Blog</a>
+</p>

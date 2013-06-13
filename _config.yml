@@ -1,0 +1,3 @@
+---
+permalink: "/blog/:year/:month/:day/:title/"
+production_url: http://www.dasdad.com.br

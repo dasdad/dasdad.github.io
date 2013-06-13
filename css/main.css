@@ -67,6 +67,30 @@ div#container {
   margin-top: 20px;
 }
 
+#side-text article p {
+  margin-top: 10px;
+}
+
+#side-text article p.post-signature {
+  font-size: 0.8em;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+#side-text article h1 a {
+  text-decoration: none;
+}
+
+#side-text article img {
+  max-width: 450px;
+}
+
+#side-text p.back-to-blog {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 450px) {
   .logo {
     width: 352px;

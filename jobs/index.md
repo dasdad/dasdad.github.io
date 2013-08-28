@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Desenvolvedor de software generalista
+Desenvolvedor generalista de software
 =====================================
 
 Trabalhe para melhorar o relacionamento das pessoas com informações e notícias.

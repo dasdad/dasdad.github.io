@@ -17,6 +17,10 @@ body * {
   color: #fff;
 }
 
+h1 {
+  line-height: 1.2;
+}
+
 div#container {
   padding: 30px;
 }

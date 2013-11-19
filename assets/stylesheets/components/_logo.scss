@@ -1,0 +1,28 @@
+.logo {
+  @include hide-text;
+
+  width: 300px;
+  height: 92px;
+
+  background: {
+    size: contain;
+    repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 600px) {
+    width: 568px;
+    height: 182px;
+  }
+}
+
+.dark {
+  .logo {
+    background-image: url(/assets/images/dark-logo.png);
+  }
+}
+
+.light {
+  .logo {
+    background-image: url(/assets/images/light-logo.png);
+  }
+}

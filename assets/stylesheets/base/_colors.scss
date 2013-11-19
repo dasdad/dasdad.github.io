@@ -1,3 +1,19 @@
-$dark-background: #000;
+$dark-background: #000000;
+$dark-foreground: #ecebe9;
 
 $light-background: #ecebe9;
+$light-foreground: #000000;
+
+.dark {
+  background-color: $dark-background;
+  &, a {
+    color: $dark-foreground;
+  }
+}
+
+.light {
+  background-color: $light-background;
+  &, a {
+    color: $light-foreground;
+  }
+}

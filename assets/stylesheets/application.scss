@@ -1,3 +1,8 @@
+@import 'vendor/normalize/normalize.css';
 @import 'vendor/bourbon/bourbon';
 
 @import 'base/typography';
+@import 'base/colors';
+@import 'base/grid';
+
+@import 'components/logo';

@@ -15,6 +15,11 @@ a {
 body {
   padding: 10px; }
 
+.panel {
+  text-align: center; }
+  .panel .logo {
+    margin: 0 auto; }
+
 .logo {
   color: transparent;
   font: 0/0 a;

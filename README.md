@@ -19,17 +19,18 @@ Install dependencies:
 ```bash
 $ cd dasdad.github.io
 $ bundle install
+$ gem install foreman
 ```
 
-Run Jekyll:
+Run:
 
 ```bash
-$ bundle exec jekyll serve --watch
+$ foreman start
 ```
 
-Go to [localhost:4000][localhost-jekyll].
+Go to [localhost:5000][localhost-jekyll].
 
 
 [das-dad]: http://www.dasdad.com.br
 [jekyll]: http://jekyllrb.com
-[localhost-jekyll]: http://localhost:4000
+[localhost-jekyll]: http://localhost:5000

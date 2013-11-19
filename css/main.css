@@ -41,9 +41,9 @@ div#container {
   text-shadow: none;
   color: transparent;
   background-repeat: no-repeat;
-  width: 211px;
-  height: 40px;
-  background-size: 211px 40px;
+  width: 227px;
+  height: 73px;
+  background-size: 227px 73px;
 }
 
 .black-on-white .logo {
@@ -73,9 +73,9 @@ div#container {
 
 @media only screen and (min-width: 450px) {
   .logo {
-    width: 352px;
-    height: 67px;
-    background-size: 352px 67px;
+    width: 284px;
+    height: 91px;
+    background-size: 284px 91px;
   }
 }
 
@@ -86,7 +86,7 @@ div#container {
 
   #side-text {
     width: 460px;
-    margin-top: 150px;
+    margin-top: 110px;
   }
 
   .white-on-black #side-text {

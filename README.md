@@ -1,9 +1,9 @@
 dasdad.com.br
 =============
 
-Source code for [Das Dad website](http://www.dasdad.com.br).
+Source code for [Das Dad website][das-dad].
 
-Powered by [Jekyll](http://jekyllrb.com/).
+Powered by [Jekyll][jekyll].
 
 Development
 -----------
@@ -24,7 +24,12 @@ $ bundle install
 Run Jekyll:
 
 ```bash
-$ jekyll serve --watch
+$ bundle exec jekyll serve --watch
 ```
 
-Go to [localhost:4000](http://localhost:4000).
+Go to [localhost:4000][localhost-jekyll].
+
+
+[das-dad]: http://www.dasdad.com.br
+[jekyll]: http://jekyllrb.com
+[localhost-jekyll]: http://localhost:4000

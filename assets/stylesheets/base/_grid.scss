@@ -1,11 +1,41 @@
-body {
-  padding: 10px;
+body, html {
+  height: 100%;
+  width: 100%;
 }
 
-.panel {
+body {
+  padding: 10px;
   text-align: center;
+  @include box($orient: vertical, $pack: center, $align: center);
+  @include box-sizing(border-box);
+}
 
-  .logo {
-    margin: 0 auto;
+.column {
+  max-width: 1000px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 1800px) {
+  body {
+    @include box-orient(horizontal);
+  }
+
+  .column {
+    margin-top: 0;
+    padding: 0 100px;
+  }
+
+  .light {
+    .text {
+      text-align: left;
+    }
+  }
+
+  .dark {
+    @include box-direction(reverse);
+
+    .text {
+      text-align: right;
+    }
   }
 }

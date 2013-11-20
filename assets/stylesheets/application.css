@@ -4,27 +4,68 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  font-size: 32px; }
+
 a {
   font-weight: bold; }
-
-.dark {
-  background-color: black; }
-  .dark, .dark a {
-    color: #ecebe9; }
 
 .light {
   background-color: #ecebe9; }
   .light, .light a {
     color: black; }
 
+.dark {
+  background-color: black; }
+  .dark, .dark a {
+    color: #ecebe9; }
+
+body, html {
+  height: 100%;
+  width: 100%; }
+
 body {
-  padding: 10px; }
+  padding: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-.panel {
-  text-align: center; }
-  .panel .logo {
-    margin: 0 auto; }
+.column {
+  max-width: 1000px;
+  margin-top: 50px; }
 
+@media screen and (min-width: 1800px) {
+  body {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal; }
+
+  .column {
+    margin-top: 0;
+    padding: 0 100px; }
+
+  .light .text {
+    text-align: left; }
+
+  .dark {
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    box-direction: reverse; }
+    .dark .text {
+      text-align: right; } }
 .logo {
   color: transparent;
   font: 0/0 a;
@@ -34,13 +75,11 @@ body {
   height: 92px;
   background-size: contain;
   background-repeat: no-repeat; }
+  .light .logo {
+    background-image: url(/assets/images/light-logo.png); }
+  .dark .logo {
+    background-image: url(/assets/images/dark-logo.png); }
   @media screen and (min-width: 600px) {
     .logo {
       width: 568px;
       height: 182px; } }
-
-.dark .logo {
-  background-image: url(/assets/images/dark-logo.png); }
-
-.light .logo {
-  background-image: url(/assets/images/light-logo.png); }

@@ -1,4 +1,9 @@
 @import url(vendor/normalize/normalize.css);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 a {
   font-weight: bold; }
 
@@ -24,6 +29,7 @@ body {
   color: transparent;
   font: 0/0 a;
   text-shadow: none;
+  display: block;
   width: 300px;
   height: 92px;
   background-size: contain;

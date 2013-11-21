@@ -15,6 +15,10 @@ body {
   margin-top: 50px;
 }
 
+.text {
+  padding-bottom: 20px;
+}
+
 @media screen and (min-width: 1800px) {
   body {
     @include box-orient(horizontal);

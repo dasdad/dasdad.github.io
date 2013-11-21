@@ -5,6 +5,9 @@ body {
 a {
   font-weight: bold; }
 
+li {
+  list-style-position: inside; }
+
 .light {
   background-color: #ecebe9; }
   .light, .light a {

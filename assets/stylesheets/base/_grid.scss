@@ -4,14 +4,13 @@ body, html {
 }
 
 body {
-  padding: 10px;
-  text-align: center;
+  padding: 5px;
   @include box($orient: vertical, $pack: center, $align: center);
   @include box-sizing(border-box);
 }
 
 .column {
-  max-width: 1000px;
+  max-width: 500px;
   margin-top: 50px;
 }
 
@@ -19,7 +18,7 @@ body {
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1200px) {
   body {
     @include box-orient(horizontal);
   }
@@ -27,12 +26,6 @@ body {
   .column {
     margin-top: 0;
     padding: 0 100px;
-  }
-
-  .light {
-    .text {
-      text-align: left;
-    }
   }
 
   .dark {

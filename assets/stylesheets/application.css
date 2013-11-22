@@ -346,7 +346,8 @@ table {
   src: url("/assets/fonts/helvetica-neue-condensed-light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/helvetica-neue-condensed-light.woff") format("woff"), url("/assets/fonts/helvetica-neue-condensed-light.ttf") format("truetype"), url("/assets/fonts/helvetica-neue-condensed-light.svg#HelveticaNeueCondensed") format("svg"); }
 
 body {
-  font-size: 32px;
+  font-size: 20px;
+  letter-spacing: 1px;
   font-family: HelveticaNeueCondensed, Helvetica, sans-serif; }
 
 a {
@@ -370,8 +371,7 @@ body, html {
   width: 100%; }
 
 body {
-  padding: 10px;
-  text-align: center;
+  padding: 5px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -389,13 +389,13 @@ body {
   box-sizing: border-box; }
 
 .column {
-  max-width: 1000px;
+  max-width: 500px;
   margin-top: 50px; }
 
 .text {
   padding-bottom: 20px; }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1200px) {
   body {
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
@@ -404,9 +404,6 @@ body {
   .column {
     margin-top: 0;
     padding: 0 100px; }
-
-  .light .text {
-    text-align: left; }
 
   .dark {
     -webkit-box-direction: reverse;
@@ -427,7 +424,3 @@ body {
     background-image: url(/assets/images/light-logo.png); }
   .dark .logo {
     background-image: url(/assets/images/dark-logo.png); }
-  @media screen and (min-width: 600px) {
-    .logo {
-      width: 568px;
-      height: 182px; } }

@@ -18,9 +18,4 @@
   .dark & {
     background-image: url(/assets/images/dark-logo.png);
   }
-
-  @media screen and (min-width: 600px) {
-    width: 568px;
-    height: 182px;
-  }
 }

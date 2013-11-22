@@ -346,9 +346,11 @@ table {
   src: url("/assets/fonts/helvetica-neue-condensed-light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/helvetica-neue-condensed-light.woff") format("woff"), url("/assets/fonts/helvetica-neue-condensed-light.ttf") format("truetype"), url("/assets/fonts/helvetica-neue-condensed-light.svg#HelveticaNeueCondensed") format("svg"); }
 
 body {
-  font-size: 20px;
-  letter-spacing: 1px;
-  font-family: HelveticaNeueCondensed, Helvetica, sans-serif; }
+  font: 18px/22px HelveticaNeueCondensed, Helvetica, sans-serif;
+  letter-spacing: 1px; }
+
+p {
+  margin: 0; }
 
 a {
   font-weight: bold; }
@@ -371,7 +373,7 @@ body, html {
   width: 100%; }
 
 body {
-  padding: 5px;
+  padding: 20px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -388,35 +390,57 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: top;
+  -moz-box-align: top;
+  box-align: top; }
+
 .column {
-  max-width: 500px;
+  max-width: 375px;
   margin-top: 50px; }
 
 .text {
   padding-bottom: 20px; }
+  .text footer {
+    margin-top: 50px; }
+    .text footer:before {
+      content: "\0000a0\0000a0";
+      border-top: 1px solid #fe6054; }
 
-@media screen and (min-width: 1200px) {
-  body {
+@media screen and (min-width: 820px) {
+  .wrapper {
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal; }
 
   .column {
-    margin-top: 0;
-    padding: 0 100px; }
+    margin-top: 0; }
+
+  .light .text {
+    padding-left: 100px; }
 
   .dark {
     -webkit-box-direction: reverse;
     -moz-box-direction: reverse;
     box-direction: reverse; }
     .dark .text {
-      text-align: right; } }
+      text-align: right;
+      padding-right: 100px; } }
 .logo {
   color: transparent;
   font: 0/0 a;
   text-shadow: none;
   display: block;
-  width: 300px;
+  width: 230px;
   height: 92px;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -424,3 +448,7 @@ body {
     background-image: url(/assets/images/light-logo.png); }
   .dark .logo {
     background-image: url(/assets/images/dark-logo.png); }
+  @media screen and (min-widht: 600px) {
+    .logo {
+      width: 300px;
+      height: 92px; } }

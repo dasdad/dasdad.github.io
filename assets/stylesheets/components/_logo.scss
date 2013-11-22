@@ -3,7 +3,7 @@
 
   display: block;
 
-  width: 300px;
+  width: 230px;
   height: 92px;
 
   background: {
@@ -17,5 +17,10 @@
 
   .dark & {
     background-image: url(/assets/images/dark-logo.png);
+  }
+
+  @media screen and (min-widht: 600px) {
+    width: 300px;
+    height: 92px;
   }
 }

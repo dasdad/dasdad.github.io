@@ -4,28 +4,48 @@ body, html {
 }
 
 body {
-  padding: 5px;
+  padding: 20px;
   @include box($orient: vertical, $pack: center, $align: center);
   @include box-sizing(border-box);
 }
 
+.wrapper {
+  @include box($orient: vertical, $pack: center, $align: top);
+}
+
 .column {
-  max-width: 500px;
+  max-width: 375px;
   margin-top: 50px;
 }
 
 .text {
   padding-bottom: 20px;
+
+  footer {
+    margin-top: 50px;
+
+    &:before {
+      content: "\0000a0\0000a0";
+      border-top: 1px solid #fe6054;
+    }
+  }
 }
 
-@media screen and (min-width: 1200px) {
-  body {
+@media screen and (min-width: 820px) {
+  $between-columns-spacing: 100px;
+
+  .wrapper {
     @include box-orient(horizontal);
   }
 
   .column {
     margin-top: 0;
-    padding: 0 100px;
+  }
+
+  .light {
+    .text {
+      padding-left: $between-columns-spacing;
+    }
   }
 
   .dark {
@@ -33,6 +53,7 @@ body {
 
     .text {
       text-align: right;
+      padding-right: $between-columns-spacing;
     }
   }
 }

@@ -2,9 +2,12 @@
                    '/assets/fonts/helvetica-neue-condensed-light');
 
 body {
-  font-size: 20px;
+  font: 18px/22px HelveticaNeueCondensed, Helvetica, sans-serif;
   letter-spacing: 1px;
-  font-family: HelveticaNeueCondensed, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
 }
 
 a {

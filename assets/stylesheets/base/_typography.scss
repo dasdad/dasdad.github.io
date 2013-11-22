@@ -1,5 +1,9 @@
+@include font-face(HelveticaNeueCondensed,
+                   '/assets/fonts/helvetica-neue-condensed-light');
+
 body {
   font-size: 32px;
+  font-family: HelveticaNeueCondensed, Helvetica, sans-serif;
 }
 
 a {

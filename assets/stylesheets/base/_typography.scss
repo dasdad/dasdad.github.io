@@ -1,9 +1,14 @@
-@include font-face(HelveticaNeueCondensed,
-                   '/assets/fonts/helvetica-neue-condensed-light');
+@include font-face(Typ1451, '/assets/fonts/typ1451/regular/typ1451-regular');
+
+@include font-face(Typ1451, '/assets/fonts/typ1451/light/typ1451-light', 200);
 
 body {
-  font: 18px/22px HelveticaNeueCondensed, Helvetica, sans-serif;
+  font: 16px/20px Typ1451, Gravur, HelveticaNeue, Helvetica, sans-serif;
   letter-spacing: 1px;
+}
+
+.dark {
+  font-weight: 200;
 }
 
 p {

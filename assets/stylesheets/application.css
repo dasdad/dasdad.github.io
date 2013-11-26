@@ -339,15 +339,25 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: HelveticaNeueCondensed;
+  font-family: Typ1451;
   font-weight: normal;
   font-style: normal;
-  src: url("/assets/fonts/helvetica-neue-condensed-light.eot");
-  src: url("/assets/fonts/helvetica-neue-condensed-light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/helvetica-neue-condensed-light.woff") format("woff"), url("/assets/fonts/helvetica-neue-condensed-light.ttf") format("truetype"), url("/assets/fonts/helvetica-neue-condensed-light.svg#HelveticaNeueCondensed") format("svg"); }
+  src: url("/assets/fonts/typ1451/regular/typ1451-regular.eot");
+  src: url("/assets/fonts/typ1451/regular/typ1451-regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/typ1451/regular/typ1451-regular.woff") format("woff"), url("/assets/fonts/typ1451/regular/typ1451-regular.ttf") format("truetype"), url("/assets/fonts/typ1451/regular/typ1451-regular.svg#Typ1451") format("svg"); }
+
+@font-face {
+  font-family: Typ1451;
+  font-weight: 200;
+  font-style: normal;
+  src: url("/assets/fonts/typ1451/light/typ1451-light.eot");
+  src: url("/assets/fonts/typ1451/light/typ1451-light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/typ1451/light/typ1451-light.woff") format("woff"), url("/assets/fonts/typ1451/light/typ1451-light.ttf") format("truetype"), url("/assets/fonts/typ1451/light/typ1451-light.svg#Typ1451") format("svg"); }
 
 body {
-  font: 18px/22px HelveticaNeueCondensed, Helvetica, sans-serif;
+  font: 16px/20px Typ1451, Gravur, HelveticaNeue, Helvetica, sans-serif;
   letter-spacing: 1px; }
+
+.dark {
+  font-weight: 200; }
 
 p {
   margin: 0; }

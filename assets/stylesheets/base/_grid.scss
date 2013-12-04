@@ -36,6 +36,10 @@ body {
 
   .wrapper {
     @include box-orient(horizontal);
+
+    .dark {
+      @include box-direction(reverse);
+    }
   }
 
   .column {
@@ -49,8 +53,6 @@ body {
   }
 
   .dark {
-    @include box-direction(reverse);
-
     .text {
       text-align: right;
       padding-right: $between-columns-spacing;

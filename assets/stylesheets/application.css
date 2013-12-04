@@ -431,6 +431,10 @@ body {
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal; }
+    .wrapper .dark {
+      -webkit-box-direction: reverse;
+      -moz-box-direction: reverse;
+      box-direction: reverse; }
 
   .column {
     margin-top: 0; }
@@ -438,13 +442,9 @@ body {
   .light .text {
     padding-left: 100px; }
 
-  .dark {
-    -webkit-box-direction: reverse;
-    -moz-box-direction: reverse;
-    box-direction: reverse; }
-    .dark .text {
-      text-align: right;
-      padding-right: 100px; } }
+  .dark .text {
+    text-align: right;
+    padding-right: 100px; } }
 .logo {
   color: transparent;
   font: 0/0 a;

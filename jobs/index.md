@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: vertical
 ---
 
 Desenvolvedor generalista de software
@@ -47,9 +47,9 @@ por desafios técnicos muito difíceis. Por exemplo, nossos produtos fazem uso
 de [Inteligência Artificial][ia], [Processamento de Linguagens Naturais][pln]
 e outras tecnologias complexas.
 
-Queremos pessoas que se preocupam com testes automatizados, design orientado
-a objetos, arquitetura escalável e legibilidade em vez daquelas que escrevem
-qualquer coisa para entregar rápido.
+Queremos pessoas que se preocupam e conheçam testes automatizados, design
+orientado a objetos, arquitetura escalável e legibilidade em vez daquelas que
+escrevem qualquer coisa para entregar rápido.
 
 Temos uma cultura de feedbacks e [code-reviews][code-reviews] abertos.
 Encorajamos todos a ler e comentar sobre o código.
@@ -58,9 +58,8 @@ Responsabilidades
 -----------------
 
 * Desenvolver e manter os produtos da [Das Dad][das-dad] escritos em
-  [Objective-C][objective-c], [Ruby][ruby], [Ruby on Rails][ruby-on-rails],
-  [CoffeeScript][coffee-script], [HTML5/CSS3][html5-css3], [Java][java] e o
-  que mais aparecer.
+  [Ruby][ruby], [Ruby on Rails][ruby-on-rails], [CoffeeScript][coffee-script],
+  [HTML5/CSS3][html5-css3], [Java][java] e o que mais aparecer.
 * Manter e evoluir a infraestrutura na qual os produtos rodam. Fazemos uso de
   [Cloud Computing][cloud-computing] no
   [Amazon Web Services][amazon-web-services], [Linode][linode] e
@@ -84,10 +83,11 @@ Requerimentos
 
 * Lógica de programação.
 * Mais de uma linguagem de programação.
-* Testar e encontrar os problemas dos programas. De preferência usando
+* Testar e encontrar os problemas dos programas usando
   [testes automatizados][testes-automatizados].
 * Fundamentos e boas práticas de [orientação a objetos][orientacao-a-objetos].
 * Terminal Unix/Linux.
+* Conseguir sair do [Vim][vim]. Dica ```:q```.
 * Entender o que pode ser custoso em termos de memória e processador e saber
   como melhorar programas que perfomem mal.
 * Básico de como um Sistema Operacional funciona. O que são
@@ -156,6 +156,8 @@ linguagem de programação que preferir:
 > 1, 2, 3, 4, Das, 6, Dad, 8, 9, Das, 11, 12, 13, Dad, Das, 16, 17, 18, 19, Das, Dad, 22, 23, 24, Das, 26, 27, Dad, 29, Das, 31, 32, 33, 34, DasDad, 36, 37, 38, 39, Das, ...
 > ```
 
+Por favor, nos surpreenda.
+
 ---
 
 Esperamos ter você trabalhando conosco em breve!
@@ -189,3 +191,4 @@ Esperamos ter você trabalhando conosco em breve!
 [git]: http://git-scm.com/
 [e-mail-jobs]: jobs@dasdad.com.br
 [github]: https://github.com/
+[vim]: http://www.vim.org/

@@ -38,9 +38,7 @@ body {
     @include box-orient(horizontal);
   }
 
-  .dark .wrapper {
-    @include box-direction(reverse);
-  }
+  .dark .wrapper { @include box-direction(reverse); }
 
   .column { margin-top: 0; }
 

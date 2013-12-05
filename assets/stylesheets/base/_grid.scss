@@ -36,15 +36,13 @@ body {
 
   .wrapper {
     @include box-orient(horizontal);
-
-    .dark {
-      @include box-direction(reverse);
-    }
   }
 
-  .column {
-    margin-top: 0;
+  .dark .wrapper {
+    @include box-direction(reverse);
   }
+
+  .column { margin-top: 0; }
 
   .light {
     .text {

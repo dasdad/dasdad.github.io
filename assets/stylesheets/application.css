@@ -431,10 +431,11 @@ body {
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal; }
-    .wrapper .dark {
-      -webkit-box-direction: reverse;
-      -moz-box-direction: reverse;
-      box-direction: reverse; }
+
+  .dark .wrapper {
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    box-direction: reverse; }
 
   .column {
     margin-top: 0; }

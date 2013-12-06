@@ -81,6 +81,7 @@ Responsabilidades
 Requerimentos
 -------------
 
+* Conhecer [Ruby][ruby].
 * Lógica de programação.
 * Mais de uma linguagem de programação.
 * Testar e encontrar os problemas dos programas usando
